@@ -35,6 +35,37 @@
 - jypyter notebook  
 - ...  
 
+### MariaDB 
+
+- [Install v11.32](https://mariadb.org/download) with MSI Package
+- Edit the system environment variables
+  - register system variable "MARIADB_HOME"
+  - register "MARIADB_HOME\bin" variable "PATH"
+```
+$ mysql --version
+```
+
+### VS Code
+
+- [Install Latest](https://code.visualstudio.com/)
+- [Install python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+### python
+
+- [Install v3.12.0](https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe)
+-  
+```
+$ python --version
+```
+
+### git
+
+- [Install Git](https://git-scm.com/downloads)
+- [Install Tortoisgit](https://tortoisegit.org/download/)
+```
+$ git --version
+```
+
 ---
 ---
 ---
