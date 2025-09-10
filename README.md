@@ -12,20 +12,83 @@
 
 ## 개발 및 테스트 환경
 
-- windows 10  
-- Python 3.12.0
-- pip 23.2.1
-- venv  
-- VS Code  
-- ...  
+- 시스템 ( Computer System )  
 
-  ```
-  $ python -m venv .venv-local
-  $ .venv-local/Scripts/Activate.ps1 
-  $ (.venv-local) python --version
-  $ (.venv-local) pip --version
-  $ (.venv-local) pip install -r requirements.txt
-  ```
+  - AMD Ryzen 9 7900X 12-Core Processor
+  - 32G RAM
+  - NVIDIA Geforce RTX 3060 12GB
+  - SSD 2TB
+  - Windows 11 64bit Korean
+
+- 파이썬 ( Python 3.12 )  
+
+  - [Python Download](https://www.python.org/downloads/)  
+    - [v3.12.0 for Windows](https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe)  
+    - [v3.11.9 for Windows](https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe)  
+
+- 에디터 ( Editor, Intergrated Development Environment )  
+
+  - [VS Code](https://visualstudio.microsoft.com/ko/free-developer-offers/)  
+    - [Python Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)  
+      - Python Interpreter Chooser  
+      - Pylance  
+      - Python Debugger  
+      -  
+    - 
+
+- 패키지 매니저 ( Package Manager )
+  - [pypi](https://pypi.org/)  
+    - [검색](https://pypi.org/search/)  
+    - ...
+    ```
+    $ pip --version
+    $ pip --help
+    ```
+    ```
+    $ pip install ipykernel
+    $ pip list
+    ```
+    ```
+    $ pip freeze > requirements.txt
+    $ pip install -r ./requirements.txt
+    ```
+
+- 소스관리  
+
+  - [Install Git](https://git-scm.com/downloads)
+    ```
+    $ git --version
+    ```
+  - [Install Tortoisgit](https://tortoisegit.org/download/)
+
+
+## 사용된 패키지 목록
+
+- ipykernel
+  - [pypi](https://pypi.org/project/ipykernel/)  
+    ```
+    $ (.venv) pip install ipykernel
+    ```
+  - [ipykernel](https://github.com/ipython/ipykernel)  
+  - IPython Kernel for Jupyter
+
+- ...
+  - [pypi]()  
+    ```
+    $ (.venv) pip install ...
+    ```
+  - [...]()
+  - ...  
+
+
+## ...
+
+---  
+---  
+---  
+
+
+
 
 ## 사전 지식
 
